@@ -1,5 +1,5 @@
 /* universal settings */
-*,*::before,*::after{
+*,*::before,*::after{ /* everything before and after */
   margin:0;
   padding:0;
   box-sizing: border-box;
@@ -25,6 +25,7 @@ body{
 Bootstrap's style rules: .btn-primary has been overriden (below).
 The keyword !important declares higher priority over the specific style rules for .btn-primary.
 */
+
 
 .btn-primary{
   background-color:#ea383c !important;
